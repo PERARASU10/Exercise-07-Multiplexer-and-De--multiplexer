@@ -46,7 +46,7 @@ If the control input changes to AB = 10, then all the gates are restricted excep
 
  
  
-### Procedure:
+#### Procedure:
 
 Step 1:
 
@@ -81,7 +81,7 @@ Developed by: PERARASU M
 RegisterNumber:  22008454
 
 
-MULTIPLEXER:
+#### MULTIPLEXER:
 
 module mux(i0,i1,i2,i3,s0,s1,y);
 
@@ -97,7 +97,7 @@ and(s,s0,s1,i3);
 or(y,p,q,r,s);
 endmodule
 
-DEMULTIPLEXER:
+#### DE-MULTIPLEXER:
 
 module mux(y0,y1,y2,y3,s0,s1,i);
 input s0,s1,i;
@@ -114,11 +114,11 @@ endmodule
 
 ### RTL LOGIC  
 
-MULTIPLEXURE 
+### MULTIPLEXURE 
 
 ![RTL mux](https://user-images.githubusercontent.com/118348589/214326632-1f3f575b-7ff1-4202-abc5-7e9971ed4438.png)
 
-DE-MULTIPLEXURE
+### DE-MULTIPLEXURE
 
 ![RTL demux](https://user-images.githubusercontent.com/118348589/214326715-66575431-4db1-4572-ae89-e0f0aa4f890b.png)
 
@@ -131,7 +131,7 @@ DE-MULTIPLEXURE
 
 ### TIMING DIGRAMS  
 
-MULTIPLEXURE
+### MULTIPLEXURE
 
 WHEN I0=1
 
@@ -153,7 +153,7 @@ WHEN I3=1
 ![Mux 4 TD](https://user-images.githubusercontent.com/118348589/214327320-b206204e-484e-42e1-924f-f6a0808278d4.png)
 
 
-DE-MULTIPLEXURE
+### DE-MULTIPLEXURE
 
 ![Demux TD](https://user-images.githubusercontent.com/118348589/214327458-bc1b2e01-88be-4e75-b439-fb60ac637a17.png)
 
@@ -162,12 +162,12 @@ DE-MULTIPLEXURE
 
 ### TRUTH TABLE 
 
-MULTIPLEXURE
+### MULTIPLEXURE
 
 ![Mux truth](https://user-images.githubusercontent.com/118348589/214327601-97c30fe6-17f3-4f04-b315-7c899a4ffcd9.png)
 
 
-DE-MULTIPLEXURE
+### DE-MULTIPLEXURE
 
 ![Demux truth](https://user-images.githubusercontent.com/118348589/214327717-2fb08219-8211-4195-b95d-a59ad8a423f6.png)
 
