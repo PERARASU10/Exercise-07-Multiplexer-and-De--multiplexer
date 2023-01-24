@@ -75,16 +75,12 @@ Run the program and choose RTL viewer to get RTL realization.
 ### PROGRAM:
 
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
+Developed by: ABRIN NISHA A
+RegisterNumber:  22008695
 
-Developed by: PERARASU M
-
-RegisterNumber:  22008454
-
-
-#### MULTIPLEXER:
+### MULTIPLEXER:
 
 module mux(i0,i1,i2,i3,s0,s1,y);
-
 input i0,i1,i2,i3,s0,s1;
 output y;
 wire p,q,r,s,s0c,s1c;
@@ -97,7 +93,7 @@ and(s,s0,s1,i3);
 or(y,p,q,r,s);
 endmodule
 
-#### DE-MULTIPLEXER:
+### DEMULTIPLEXER:
 
 module mux(y0,y1,y2,y3,s0,s1,i);
 input s0,s1,i;
