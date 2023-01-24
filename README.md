@@ -46,7 +46,8 @@ If the control input changes to AB = 10, then all the gates are restricted excep
 
  
  
-Procedure:
+### Procedure:
+
 Step 1:
 
 Open Quartus II and select new project . Open new file at the verilog.
@@ -71,13 +72,14 @@ Step 6:
 
 Run the program and choose RTL viewer to get RTL realization.
 
-PROGRAM:
+### PROGRAM:
 
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
 
 Developed by: PERARASU M
 
 RegisterNumber:  22008454
+
 
 MULTIPLEXER:
 
